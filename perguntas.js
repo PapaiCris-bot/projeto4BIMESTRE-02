@@ -1,26 +1,26 @@
 criaCartao(
     'Química',
     '(ENEM - 2021)
-    A simples atitude de não jogar direto no lixo ou no ralo da pia o óleo de cozinha usado pode contribuir para a redução da poluição ambiental. Mas oq ue fazer com o óleo vegetal que nao será mais usado? Não existe um modelo ideal de descarte, mas uma alternativa simples tem sido reaproveitá-lo para fazer sabão. Para isso, são necessários, além do próprio óleo, água e soda cáustica.   
-LOBO, I. Sabão com óleo de cozinha. Disponível em: http/pga.pgr.mpf.gov.br. Acesso em 26 fev. 2012 (adaptado). 
-Com base no texto, a reação química que permite o reaproveitamento do óleo vegetal é denominada:
+     A simples atitude de não jogar direto no lixo ou no ralo da pia o óleo de cozinha usado pode contribuir para a redução da poluição ambiental. Mas oq ue fazer com o óleo vegetal que nao será mais usado? Não existe um modelo ideal de descarte, mas uma alternativa simples tem sido reaproveitá-lo para fazer sabão. Para isso, são necessários, além do próprio óleo, água e soda cáustica.   
+    LOBO, I. Sabão com óleo de cozinha. Disponível em: http/pga.pgr.mpf.gov.br. Acesso em 26 fev. 2012 (adaptado). 
+    Com base no texto, a reação química que permite o reaproveitamento do óleo vegetal é denominada:
 
-A
-redução.
+    A
+    redução.
 
-B
-epoxidação. 
+    B
+    epoxidação. 
 
-C
-substituição. 
+    C
+    substituição. 
 
-D
-esterioficação. 
+    D
+    esterioficação. 
 
-E
-saponificação.',
+    E
+    saponificação.',
 
-    'Alternativa correta: E',
+    'Alternativa correta: E'
 )
 
 criaCartao(
