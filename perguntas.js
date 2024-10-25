@@ -18,11 +18,9 @@ D
 esterioficação. 
 
 E
-saponificação. 
+saponificação.',
 
-',
-    'Alternativa correta:
-             E',
+    'Alternativa correta: E',
 )
 
 criaCartao(
