@@ -1,13 +1,17 @@
 criaCartao(
-    'Programação',
-    'O que é Python?',
-    'O Python é uma linguagem de programação'
+    'Quiz POKÉMON',
+    'Qual é o incial de água da 6ºgen de pokémon?',
+    'FROAKIE'
 )
 
 criaCartao(
-    'Geografia',
-    'Qual a capital da França?',
-    'A capital da França é Paris'
+    'Quiz POKÉMON',
+    'Qual desses pokemons não possui mega evolução:
+    a)Sharpedo
+    b)Blaziken
+    c)Abomasnow
+    d)Greninja',
+    'A resposta correta é (d)greninja'
 )
 
 criaCartao(
