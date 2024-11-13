@@ -15,13 +15,13 @@ criaCartao(
 )
 
 criaCartao(
-    'Programação',
-    'O que é uma função?',
-    'Uma função é um bloco de código que executa alguma tarefa'
+    'Quiz NARUTO',
+    'Quem foi o criador 9 besta com cauda?',
+    'Hagoromo: Sábio do 6 caminhos.'
 )
 
 criaCartao(
-    'Lingua inglesa',
-    'Como se diz oi em Inglês?',
-    'Oi em ingles é HI (RAI)'
+    'Quiz POKÉMON',
+    'Qual foi o primeiro Pokemon do ASH?',
+    'Pikachu.'
 )
