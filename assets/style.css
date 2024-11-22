@@ -37,6 +37,8 @@ body {
 .cartao__conteudo h3 {
     color: var(--text-color);
     border-bottom: 2px solid var(--border-color);
+    padding-bottom: 0.5rem;
+    margin-boton: 0.5rem;
     text-align: left;
     padding: 0.5rem;
     position: absolute;
