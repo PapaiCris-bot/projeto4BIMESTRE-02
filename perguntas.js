@@ -5,23 +5,19 @@ criaCartao(
 )
 
 criaCartao(
-    'Quiz POKÉMON',
-    'Qual desses pokemons não possui mega evolução:' 
-     'a)Sharpedo' 
-     'b)Blaziken'
-     'c)Abomasnow'
-     'd)Greninja',
-    'A resposta correta é (d)greninja'
-)
-
-criaCartao(
-    'Quiz NARUTO',
-    'Quem foi o criador 9 besta com cauda?',
-    'Hagoromo: Sábio do 6 caminhos.'
-)
-
-criaCartao(
-    'Quiz POKÉMON',
+'Quiz POKÉMON',
     'Qual foi o primeiro Pokemon do ASH?',
     'Pikachu.'
+)
+
+criaCartao(
+    'Quiz POKÉMOM',
+    'Qual foi a equipe do ash no ínicio da jornada de johto?',
+    'Pikachu, bulbasaur, squirtle, charizard, heracross, chikorita'
+)
+
+criaCartao(
+    'Quiz POKÉMON',
+    'Qual desses pokemons não possui mega evolução: a)Sharpedo b)Blaziken c)Abomasnow d)Greninja',
+    'A resposta correta é (d)greninja'
 )
