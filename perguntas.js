@@ -6,11 +6,7 @@ criaCartao(
 
 criaCartao(
     'Quiz POKÉMON',
-    'Qual desses pokemons não possui mega evolução:
-    a)Sharpedo
-    b)Blaziken
-    c)Abomasnow
-    d)Greninja',
+    'Qual desses pokemons não possui mega evolução: a)Sharpedob)Blazikenc)Abomasnowd)Greninja',
     'A resposta correta é (d)greninja'
 )
 
