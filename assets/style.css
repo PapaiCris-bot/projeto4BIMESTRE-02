@@ -37,35 +37,54 @@ body {
 
 .cartao__conteudo {
     background-color: var(--card-front-color);
-    padding: 1.5rem;
-    text-align: center;
-    border-radius: 8px;
     position: relative;
+    border-radius: 8px;
+    height: 100%;
     transform-style: preserve-3d;
     transition: transform 300ms ease-in-out;
-    height: 100%;
+    overflow: hidden;
 }
 
+/* Faixa do título */
 .cartao__conteudo h3 {
     color: var(--text-color);
-    border-bottom: 2px solid var(--border-color);
-    padding-bottom: 0.5rem;
+    background-color: var(--border-color); /* Fundo sólido da faixa */
+    height: 3rem; /* Altura fixa da faixa */
+    line-height: 3rem; /* Centraliza verticalmente o texto */
     font-size: 1.2rem;
-    margin-bottom: 1rem;
-    backface-visibility: hidden;
+    margin: 0;
+    padding: 0 1rem; /* Espaçamento horizontal */
+    position: absolute; /* Posiciona no topo do cartão */
+    top: 0;
+    left: 0;
+    width: 100%; /* Ocupa toda a largura do cartão */
+    z-index: 2; /* Fica acima da pergunta */
+    text-align: left; /* Alinhamento do texto */
+    border-top-left-radius: 8px; /* Arredondado nas bordas superiores */
+    border-top-right-radius: 8px;
+    backface-visibility: hidden; /* Esconde no verso */
 }
 
+/* Área da pergunta */
 .cartao__conteudo__pergunta {
     color: var(--text-color);
     font-size: 1rem;
     font-weight: 500;
-    text-align: center;
     padding: 1rem;
     position: relative;
-    backface-visibility: hidden;
+    top: 3rem; /* Posiciona abaixo da faixa do título */
+    height: calc(100% - 3rem); /* Resto do espaço no cartão */
+    background-color: rgba(255, 255, 255, 0.1); /* Fundo transparente */
+    display: flex;
+    align-items: center; /* Centraliza verticalmente o texto */
+    justify-content: center; /* Centraliza horizontalmente o texto */
+    border-bottom-left-radius: 8px; /* Arredonda as bordas inferiores */
+    border-bottom-right-radius: 8px;
     z-index: 1;
+    backface-visibility: hidden; /* Esconde no verso */
 }
 
+/* Resposta no verso */
 .cartao__conteudo__resposta {
     color: var(--card-back-color);
     font-weight: 700;
@@ -75,7 +94,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
+    height: 100%; /* Ocupa todo o cartão */
     width: 100%;
     box-sizing: border-box;
     transform: rotateY(180deg);
@@ -83,16 +102,17 @@ body {
     border: 4px solid var(--card-back-color);
     border-radius: 8px;
     backface-visibility: hidden;
+    z-index: 0;
 }
 
-/* Quando o cartão vira */
+/* Comportamento ao virar o cartão */
 .cartao.active .cartao__conteudo {
     transform: rotateY(180deg);
 }
 
 .cartao.active h3,
 .cartao.active .cartao__conteudo__pergunta {
-    visibility: hidden; /* Esconde título e pergunta */
+    visibility: hidden; /* Esconde o título e a pergunta */
 }
 
 .cartao.active .cartao__conteudo__resposta {
