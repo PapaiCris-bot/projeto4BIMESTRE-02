@@ -74,20 +74,15 @@ footer p {
 }
 
 @media (max-width: 560px) {
-    
-    body {
-        background: url('img/fundo.jpg'), no-repeat cover;
-    }
-
     .cartao {
-        flex: 1 0 calc(100% - 1rem)
+        flex: 1 0 calc(100% - 2rem); /* Ajusta o tamanho do cartão */
     }
 
     .cartao__conteudo h3 {
-        font-size: 3vw;
+        font-size: 4vw; /* Reduz tamanho do título */
     }
 
     .cartao__conteudo p {
-        font-size: 3.8vw;
+        font-size: 4.5vw; /* Reduz tamanho do texto */
     }
 }
