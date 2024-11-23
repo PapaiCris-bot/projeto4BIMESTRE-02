@@ -13,7 +13,7 @@ criaCartao(
 criaCartao(
     'Quiz POKÉMOM',
     'Qual foi a equipe do ash no ínicio da jornada de johto?',
-    'Pikachu, bulbasaur, squirtle, charizard, heracross, chikorita'
+    'Pikachu, Bulbasaur, Squirtle, Charizard, Heracross, Chikorita'
 )
 
 criaCartao(
