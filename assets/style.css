@@ -36,17 +36,15 @@ body {
 
 .cartao__conteudo h3 {
     color: var(--text-color);
-    border-bottom: 2px solid var(--border-color);
-    padding-bottom: 0.5rem;
-    margin-boton: 0.5rem;
-    text-align: left;
-    padding: 0.5rem;
-    position: absolute;
-    margin: 0.6rem;
-    border-radius: 0.6rem;
-    font-size: 1vw;
+    border: 2px solid var(--border-color);
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    margin: 0 auto 1rem;
+    display: inline-block;
+    border-radius: 5px;
     backface-visibility: hidden;
 }
+
 
 .cartao__conteudo p {
     margin-top: 1rem;
